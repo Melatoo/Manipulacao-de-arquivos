@@ -20,4 +20,5 @@ int main () {
 		cin >> v[i].nome >> v[i].valor;
 		gravacao << v[i].nome << endl << " Valor:" << v[i].valor << endl;
 	}
+	gravacao.close();
 }
